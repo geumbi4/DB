@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C027448E-8A21-0AAF-FAC0-47C703F4AD92" name="Movie">
+<createdBy>626-35</createdBy>
+<createdTime>2024-09-04 04:48:10 UTC</createdTime>
+<ownerDesignName>MovieDB</ownerDesignName>
+<engineerTo>
+<item key="5B7361E3-F7A6-4467-5DA8-D7DA7130B63C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="title" id="2B018120-DCBA-B9D3-7A52-D9557FE107E2">
+<createdBy>626-35</createdBy>
+<createdTime>2024-09-04 04:49:03 UTC</createdTime>
+<ownerDesignName>MovieDB</ownerDesignName>
+<engineerTo>
+<item key="5B7361E3-F7A6-4467-5DA8-D7DA7130B63C" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>3DA2E3E6-65D2-C57B-2D6B-95F4CCEDA0CB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="year" id="FF6FB887-1A81-151C-D694-57711FE7F7D4">
+<createdBy>626-35</createdBy>
+<createdTime>2024-09-04 04:49:38 UTC</createdTime>
+<ownerDesignName>MovieDB</ownerDesignName>
+<engineerTo>
+<item key="5B7361E3-F7A6-4467-5DA8-D7DA7130B63C" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>BE6E447B-BB8C-FCFF-C8C6-F263B1116225</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1920</beginValue>
+<endValue>2024</endValue>
+</rangeDef>
+</listOfRanges>
+</Attribute>
+<Attribute name="length" id="81DEB507-EAD0-0228-274B-9FF688E78848">
+<createdBy>626-35</createdBy>
+<createdTime>2024-09-04 05:06:12 UTC</createdTime>
+<ownerDesignName>MovieDB</ownerDesignName>
+<engineerTo>
+<item key="5B7361E3-F7A6-4467-5DA8-D7DA7130B63C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>7EF23D88-5CC5-B67A-0657-AFC8917D7EC2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="inColor" id="E9B94706-7B78-6E6F-CCBB-7118FA9161EA">
+<createdBy>626-35</createdBy>
+<createdTime>2024-09-04 05:06:28 UTC</createdTime>
+<ownerDesignName>MovieDB</ownerDesignName>
+<engineerTo>
+<item key="5B7361E3-F7A6-4467-5DA8-D7DA7130B63C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="studioName" id="FB025CE6-A661-8B99-6B9C-E57E580FD26A">
+<createdBy>626-35</createdBy>
+<createdTime>2024-09-04 05:11:14 UTC</createdTime>
+<generatorID>89CD8E76-E6A9-4DB5-174F-E881A33E5C7F</generatorID>
+<ownerDesignName>MovieDB</ownerDesignName>
+<engineerTo>
+<item key="5B7361E3-F7A6-4467-5DA8-D7DA7130B63C" value="true"/>
+</engineerTo>
+<referedAttribute>E4E295B6-805A-416A-F08C-D817B9716977</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>1D18AEA4-721D-3367-6D4E-FFA3EC09BCA2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8805D3E2-460F-8600-0848-E53872DD727D" name="Movie PKey">
+<createdBy>626-35</createdBy>
+<createdTime>2024-09-04 04:50:33 UTC</createdTime>
+<ownerDesignName>MovieDB</ownerDesignName>
+<engineerTo>
+<item key="5B7361E3-F7A6-4467-5DA8-D7DA7130B63C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>2B018120-DCBA-B9D3-7A52-D9557FE107E2,FF6FB887-1A81-151C-D694-57711FE7F7D4</newElementsIDs>
+<usedAttributes>
+<attributeRef>2B018120-DCBA-B9D3-7A52-D9557FE107E2</attributeRef>
+<attributeRef>FF6FB887-1A81-151C-D694-57711FE7F7D4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

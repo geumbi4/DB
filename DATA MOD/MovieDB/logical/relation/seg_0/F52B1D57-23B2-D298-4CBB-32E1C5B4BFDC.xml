@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="StarsIn" directorySegmentName="seg_0" id="F52B1D57-23B2-D298-4CBB-32E1C5B4BFDC">
+<createdBy>626-35</createdBy>
+<createdTime>2024-09-04 05:32:00 UTC</createdTime>
+<ownerDesignName>MovieDB</ownerDesignName>
+<engineerTo>
+<item key="5B7361E3-F7A6-4467-5DA8-D7DA7130B63C" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>C027448E-8A21-0AAF-FAC0-47C703F4AD92</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>71C93268-1841-6C95-B707-644467A3EB95</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="Guarantee" id="D9EEB8ED-4980-9114-E586-076420BC52D9">
+<createdBy>626-35</createdBy>
+<createdTime>2024-09-04 05:49:01 UTC</createdTime>
+<ownerDesignName>MovieDB</ownerDesignName>
+<engineerTo>
+<item key="5B7361E3-F7A6-4467-5DA8-D7DA7130B63C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,20,0</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

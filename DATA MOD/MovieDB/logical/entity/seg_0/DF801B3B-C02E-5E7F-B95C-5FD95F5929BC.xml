@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DF801B3B-C02E-5E7F-B95C-5FD95F5929BC" name="Studio">
+<createdBy>626-35</createdBy>
+<createdTime>2024-09-04 05:08:53 UTC</createdTime>
+<ownerDesignName>MovieDB</ownerDesignName>
+<engineerTo>
+<item key="5B7361E3-F7A6-4467-5DA8-D7DA7130B63C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="name" id="E4E295B6-805A-416A-F08C-D817B9716977">
+<createdBy>626-35</createdBy>
+<createdTime>2024-09-04 05:09:10 UTC</createdTime>
+<ownerDesignName>MovieDB</ownerDesignName>
+<engineerTo>
+<item key="5B7361E3-F7A6-4467-5DA8-D7DA7130B63C" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>1D18AEA4-721D-3367-6D4E-FFA3EC09BCA2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="address" id="D0A6FF46-97F6-BC77-43AD-E4722C883E32">
+<createdBy>626-35</createdBy>
+<createdTime>2024-09-04 05:09:31 UTC</createdTime>
+<ownerDesignName>MovieDB</ownerDesignName>
+<engineerTo>
+<item key="5B7361E3-F7A6-4467-5DA8-D7DA7130B63C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>29C743BA-82EB-7032-BF24-4782AF6A81DE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="presNo" id="E5B8EAF7-A156-1DAC-24C7-43F19A0A81DD">
+<createdBy>626-35</createdBy>
+<createdTime>2024-09-04 05:41:16 UTC</createdTime>
+<generatorID>C103C880-11DF-80B8-497C-34B2B844CA50</generatorID>
+<ownerDesignName>MovieDB</ownerDesignName>
+<engineerTo>
+<item key="5B7361E3-F7A6-4467-5DA8-D7DA7130B63C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>6117730A-A274-0818-AD0E-3E84C406A58C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3D9B880D-C6AA-AB6D-11FD-FF11D5B85CCD" name="Studio PK">
+<createdBy>626-35</createdBy>
+<createdTime>2024-09-04 05:09:26 UTC</createdTime>
+<ownerDesignName>MovieDB</ownerDesignName>
+<engineerTo>
+<item key="5B7361E3-F7A6-4467-5DA8-D7DA7130B63C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E4E295B6-805A-416A-F08C-D817B9716977</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

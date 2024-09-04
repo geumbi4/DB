@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="MovieDB">
+<domains>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="name_dom" id="1D18AEA4-721D-3367-6D4E-FFA3EC09BCA2">
+<createdBy>626-35</createdBy>
+<createdTime>2024-09-04 05:03:02 UTC</createdTime>
+<ownerDesignName>MovieDB</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>3</dataTypeSize>
+<fileName>MovieDB</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="addr_dom" id="29C743BA-82EB-7032-BF24-4782AF6A81DE">
+<createdBy>626-35</createdBy>
+<createdTime>2024-09-04 05:03:36 UTC</createdTime>
+<ownerDesignName>MovieDB</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>200</dataTypeSize>
+<fileName>MovieDB</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="tit_dom" id="3DA2E3E6-65D2-C57B-2D6B-95F4CCEDA0CB">
+<createdBy>626-35</createdBy>
+<createdTime>2024-09-04 04:42:51 UTC</createdTime>
+<ownerDesignName>MovieDB</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>100</dataTypeSize>
+<fileName>MovieDB</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="gender_dom" id="5641B204-D5D9-0C70-A300-CEF7E189BB88">
+<createdBy>626-35</createdBy>
+<createdTime>2024-09-04 05:04:09 UTC</createdTime>
+<ownerDesignName>MovieDB</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>6</dataTypeSize>
+<fileName>MovieDB</fileName>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<listOfValues>
+<valueDef value="female" description=""/>
+<valueDef value="male" description=""/>
+</listOfValues>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="len_dom" id="7EF23D88-5CC5-B67A-0657-AFC8917D7EC2">
+<createdBy>626-35</createdBy>
+<createdTime>2024-09-04 05:01:37 UTC</createdTime>
+<ownerDesignName>MovieDB</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>MovieDB</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="yr_dom" id="BE6E447B-BB8C-FCFF-C8C6-F263B1116225">
+<createdBy>626-35</createdBy>
+<createdTime>2024-09-04 04:45:09 UTC</createdTime>
+<ownerDesignName>MovieDB</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>4</dataTypePrecision>
+<fileName>MovieDB</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1920</beginValue>
+<endValue>2024</endValue>
+</rangeDef>
+</listOfRanges>
+</Domain>
+</domains>
+</DomainFile>

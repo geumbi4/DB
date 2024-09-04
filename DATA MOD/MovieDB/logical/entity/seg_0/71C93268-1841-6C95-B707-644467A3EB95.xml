@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="71C93268-1841-6C95-B707-644467A3EB95" name="movieStar">
+<createdBy>626-35</createdBy>
+<createdTime>2024-09-04 05:24:40 UTC</createdTime>
+<ownerDesignName>MovieDB</ownerDesignName>
+<engineerTo>
+<item key="5B7361E3-F7A6-4467-5DA8-D7DA7130B63C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="birthdate" id="5DBB641E-5782-9026-A7ED-3FC8F33D7386">
+<createdBy>626-35</createdBy>
+<createdTime>2024-09-04 05:25:23 UTC</createdTime>
+<ownerDesignName>MovieDB</ownerDesignName>
+<engineerTo>
+<item key="5B7361E3-F7A6-4467-5DA8-D7DA7130B63C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="74CB3D26-F00B-9B00-9781-1E009EB04C86">
+<createdBy>626-35</createdBy>
+<createdTime>2024-09-04 05:25:39 UTC</createdTime>
+<ownerDesignName>MovieDB</ownerDesignName>
+<engineerTo>
+<item key="5B7361E3-F7A6-4467-5DA8-D7DA7130B63C" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>1D18AEA4-721D-3367-6D4E-FFA3EC09BCA2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="address" id="A0E043CD-01B7-F04A-AD3C-96B86B2FC595">
+<createdBy>626-35</createdBy>
+<createdTime>2024-09-04 05:25:46 UTC</createdTime>
+<ownerDesignName>MovieDB</ownerDesignName>
+<engineerTo>
+<item key="5B7361E3-F7A6-4467-5DA8-D7DA7130B63C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>29C743BA-82EB-7032-BF24-4782AF6A81DE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="gender" id="1642A572-C68B-000A-6080-37EECACB4632">
+<createdBy>626-35</createdBy>
+<createdTime>2024-09-04 05:25:53 UTC</createdTime>
+<ownerDesignName>MovieDB</ownerDesignName>
+<engineerTo>
+<item key="5B7361E3-F7A6-4467-5DA8-D7DA7130B63C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>5641B204-D5D9-0C70-A300-CEF7E189BB88</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="705F70C4-9A5E-00EA-4FE8-A2B298A20788" name="movieStar PK">
+<createdBy>626-35</createdBy>
+<createdTime>2024-09-04 05:25:57 UTC</createdTime>
+<ownerDesignName>MovieDB</ownerDesignName>
+<engineerTo>
+<item key="5B7361E3-F7A6-4467-5DA8-D7DA7130B63C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>74CB3D26-F00B-9B00-9781-1E009EB04C86</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
